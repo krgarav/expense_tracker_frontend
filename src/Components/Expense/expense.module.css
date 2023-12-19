@@ -1,0 +1,115 @@
+body{
+  background-color: beige;
+}
+
+.list li {
+  list-style: none;
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.list ul{
+  margin: 0;
+}
+.list h2{
+  text-align: center;
+}
+.formdiv {
+  text-align: center;
+  width: 100%;
+}
+.formdiv input {
+  margin: 10px;
+  padding: 5px;
+}
+.formdiv select{
+  margin: 10px;
+  padding: 5px;
+}
+.btn-danger:hover {
+  background-color: red;
+  color: white;
+}
+.btn-danger {
+  background-color: rgb(231, 162, 162);
+  color: black;
+}
+.box-div {
+  width: 150px;
+  text-align: start;
+}
+.box-div h3{
+  font-size: 1.7rem;
+}
+.box-div-name {
+  width: 100px;
+  text-align: start;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.formdiv h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color-scheme: light dark;
+}
+.logoutBtn {
+  width: 100%;
+  margin: 10px;
+}
+.logoutBtn Button {
+  width: 100%;
+  float: right;
+}
+.header {
+  text-align: center;
+}
+.pagechanger {
+  margin: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+  right: 30px;
+}
+/* .listelem{
+display: flex;
+justify-content: space-between;
+text-align: start;
+
+} */
+/* .listelem1{
+display: flex;
+} */
+@media screen and (max-width: 768px) {
+  
+  body {
+    font-size: 16px;
+  }
+.box-div{
+  /* width: 50px; */
+  margin: 5px;
+  text-align: start;
+}
+
+.box-div h3{
+  font-size: 1rem;
+}
+.box-div-name {
+  width: 100px;
+  text-align: start;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+}

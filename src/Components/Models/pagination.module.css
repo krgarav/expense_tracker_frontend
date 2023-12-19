@@ -1,0 +1,10 @@
+.selecttab select{
+margin-left: 5px;
+padding: 5px;
+}
+.selecttab{
+   /* background-color: aqua; */
+    height: 100%;
+   margin-right: 10px;
+  
+}
