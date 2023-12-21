@@ -31,7 +31,7 @@ const ReportGeneration = () => {
   const dailyTableData = data.map((item) => {
     const date = item.createdAt.split("T")[0];
     return (
-      <tr key={item._id}>
+      <tr key={item.id}>
         <td>{date}</td>
         <td>{item.description}</td>
         <td>{item.category}</td>

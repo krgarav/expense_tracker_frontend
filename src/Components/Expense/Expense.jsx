@@ -49,7 +49,7 @@ const Expense = () => {
     const amount = e.amount;
     const description = e.description;
     const category = e.category;
-    const id = e._id;
+    const id = e.id;
     const update = async () => {
       const token = localStorage.getItem("token");
       const response = await fetch(PORT + "/expense/delete-expense/" + id, {
@@ -90,7 +90,7 @@ const Expense = () => {
   const liElement = listItem.map((item) => {
     // console.log(item)
     return (
-      <li key={item._id}>
+      <li key={item.id}>
         {/* <Container>
           <Row>
             <Col></Col>
@@ -116,7 +116,7 @@ const Expense = () => {
         <span className={classes["box-div"]}>
           <button
             className={classes["btn-danger"]}
-            onClick={() => deleteHandler(item._id)}
+            onClick={() => deleteHandler(item.id)}
           >
             Delete
           </button>

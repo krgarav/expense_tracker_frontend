@@ -4,9 +4,9 @@ const AllDownloads = (props) => {
     const date = item.createdAt.split(" ")[0];
     const time = item.createdAt.split(" ")[1];
     return (
-      <Row key={item._id}>
+      <Row key={item.id}>
         <Col lg={4} xs={3}>
-          <a href={item.url}>url{item._id}</a>
+          <a href={item.url}>url{item.id}</a>
         </Col>
         <Col lg={4} xs={5}>
           {date}
